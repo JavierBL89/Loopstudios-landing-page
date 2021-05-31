@@ -6,7 +6,6 @@ var hamburgerClick = $(".navbar-toggler-icon").on("click", function(){
 
 
   $(".main-wraper").hide();
-  $(".container-footer").hide();
   $(".attribution").hide();
   $(".hamburguer-menu").show();
 });
@@ -16,7 +15,7 @@ var hamburgerClick = $(".navbar-toggler-icon").on("click", function(){
 var buttonExitClick = $(".button-exit-menu").on("click", function(){
   $(".hamburguer-menu").hide();
   $(".main-wraper").show();
-
+  $(".attribution").show();
 })
 
 
@@ -38,4 +37,4 @@ var buttonExitClick = $(".button-exit-menu").on("click", function(){
     })
   }
 
-// DON'T EVEN KNOW HOW I MADE THE FOOR LOOP WORKS... 
+// DON'T EVEN KNOW HOW I MADE THE FOOR LOOP WORKS...
