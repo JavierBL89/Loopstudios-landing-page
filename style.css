@@ -341,7 +341,7 @@ color: rgb(96, 115, 120); */
 }
 
 
-.attribution { font-size: 17px; text-align: center; padding: 1%; }
+.attribution {font-size: 17px; text-align: center; padding: 1%; }
 .attribution a { color: hsl(228, 45%, 44%);}
 
 
@@ -504,9 +504,15 @@ border-color: black;
 }
 
 
+.link-list-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-link{
   padding-bottom: 10px;
-display: grid;
 
 }
 
